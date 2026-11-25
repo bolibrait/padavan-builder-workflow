@@ -47,7 +47,7 @@ jobs:
 
     - name: Build firmware
       run: |
-cp padavan-ng/trunk/configs/templates/ASUS/RT-AC51U.config padavan-ng/trunk/.config
+cp padavan-ng/trunk/configs/templates/ZBT/ZBT-WE1626.config padavan-ng/trunk/.config
 cat build.config >> padavan-ng/trunk/.config
 
         cd padavan-ng/trunk
